@@ -29,4 +29,27 @@ fieldset {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.outer-layer-4 > p + p {
+    color: orange;
+}
+
+.inner-layer-5 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+}
+
+.outer-layer-6 {
+    box-shadow: 0 0 4px 1px rgba(0, 0, 255, 0.6);
+}
+
+.outer-layer-7 {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.uppercase.bold {
+    font-family: "Courier New", Courier, monospace;
 }
